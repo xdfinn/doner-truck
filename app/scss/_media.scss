@@ -1,0 +1,62 @@
+@media (max-width: 1330px) {
+    .menu-items{
+        flex-wrap: wrap;
+    }
+    .iskender-kebab-wrapper,
+    .turkish-doner-wrapper,
+    .classic-shawarma-wrapper,
+    .cheese-shawarma-wrapper,
+    .vegetarian-shawarma-wrapper{
+        max-width: 400px;
+    }
+    .menu-second-item{
+        margin: 0 auto;
+    }
+    .second-screen{
+        height: auto;
+        padding-bottom: 35px;
+    }
+}
+@media (max-width: 840px){
+    .location-tags{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 775px) {
+    .drinks,
+    .all-shawarma,
+    .all-doners{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 750px){
+    .location a{
+        margin: 20px 10px;
+    }
+}
+@media (max-width: 460px) {
+    .location a{
+        font-size: 35px;
+    }
+}
+@media (max-width: 400px){
+    .how-we-work{
+        font-size: 30px;
+    }
+    .gril-text{
+        font-size: 45px;
+    }
+    .doner-text{
+        font-size: 75px;
+    }
+    .location a{
+        font-size: 30px;
+    }
+}
+@media (max-width: 400px){
+    .location a{
+        font-size: 25px;
+    }
+}
