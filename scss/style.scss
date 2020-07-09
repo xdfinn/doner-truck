@@ -14,7 +14,7 @@
 }
 // start first screen
 .first-screen {
-    background-image: url(../doner-truck/images/main-bg.jpg);
+    background-image: url(../images/main-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@
     }
 }
 .vk::before {
-    content: url(../doner-truck/images/vk.png);
+    content: url(../images/vk.png);
     width: 40px;
     height: 40px;
     // content: "\ea98";
@@ -50,7 +50,6 @@
 .menu-items {
     list-style: none;
     text-align: center;
-    display: flex;
     & li {
         padding: 10px;
     }
@@ -96,10 +95,11 @@
     padding-bottom: 20px;
 }
 .second-screen {
-    background-image: url(../doner-truck/images/menu-bg.jpg);
+    background-image: url(../images/menu-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
 }
 .menu-title {
     color: #fff;
@@ -122,7 +122,7 @@
 .all-doners {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 }
 .menu-first-item-title,
 .menu-second-item-title,
@@ -138,7 +138,10 @@
 .cheese-shawarma-title,
 .iskender-kebab-title,
 .vegetarian-shawarma-title,
-.drink-title {
+.drink-title,
+.lyulya-kebab-title,
+.spicy-shawarma-title,
+.mushroom-shawarma-title {
     padding-bottom: 20px;
     font-size: 22px;
 }
@@ -146,7 +149,10 @@
 .cheese-shawarma-structure,
 .vegetarian-shawarma-structure,
 .turkish-doner-structure,
-.iskender-kebab-structure {
+.iskender-kebab-structure,
+.lyulya-kebab-structure,
+.spicy-shawarma-structure,
+.mushroom-shawarma-structure {
     padding: 25px 0;
     font-size: 18px;
 }
@@ -157,7 +163,10 @@
 .iskender-kebab-img,
 .vegetarian-shawarma-img,
 .cheese-shawarma-img,
-.classic-shawarma-img {
+.classic-shawarma-img,
+.spicy-shawarma-img,
+.mushroom-shawarma-img,
+.lyulya-kebab-img {
     margin: 0 auto;
     width: 250px;
     height: 250px;
@@ -181,9 +190,10 @@
     text-align: center;
 }
 .drinks {
+    margin: 0 auto;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 .drink-cost,
@@ -199,7 +209,7 @@
     width: 1920px;
     max-width: 100%;
     height: 100%;
-    background-image: url(../doner-truck/images/location-bg.jpg);
+    background-image: url(../images/location-bg.jpg);
     background-repeat: no-repeat;
     & h3 {
         padding-top: 90px;
